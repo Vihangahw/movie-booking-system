@@ -81,3 +81,11 @@ body{
     cursor: default;
     transform: scale(1);
 }
+.showcase.seat.selected:hover {
+    cursor: default;
+    transform: scale(1);
+}
+.showcase .seat:hover {
+    pointer-events: none;
+    transform: scale(1);
+}
