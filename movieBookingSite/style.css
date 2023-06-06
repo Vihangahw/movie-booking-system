@@ -77,8 +77,8 @@ body{
     -webkit-appearance: none;
     appearance: none;
 }
-.showcase.seat:not(.occupied):hover{
-    cursor: default;
+.showcase.seat:hover {
+    pointer-events: none;
     transform: scale(1);
 }
 .showcase.seat.selected:hover {
@@ -88,4 +88,13 @@ body{
 .showcase .seat:hover {
     pointer-events: none;
     transform: scale(1);
+}
+.showcase{
+    background-color: rgba(0,0,0,0.1);
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #777;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
 }
